@@ -1,0 +1,34 @@
+*{
+    border: solid 2px black;
+}
+h1{
+    text-align: center;
+}
+.row{
+    height: 30vh;
+    background-color: grey;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.chicken{
+    width: 45%;
+}
+.kajus{
+    height: 10%;
+    width: 100%;
+    background-color: red;
+}
+.ctag{
+    background-color: pink;
+    width: 40%;
+    float: right;
+}
+.beef{
+    width: 45%;
+}
+.sushi{
+    height: 30vh;
+    background-color: aquamarine;
+}
