@@ -1,34 +1,134 @@
-*{
-    border: solid 2px black;
-}
 h1{
     text-align: center;
 }
+@media all and (min-width: 1440px) {
+    
 .row{
     height: 30vh;
-    background-color: grey;
+    
     display: flex;
     position: relative;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .chicken{
-    width: 45%;
-}
-.kajus{
-    height: 10%;
-    width: 100%;
-    background-color: red;
+    height: 100%;
+    width: 30%;
+    border: solid 2px black;
+    background-color: grey;
+    font-size: large;
 }
 .ctag{
-    background-color: pink;
-    width: 40%;
+    width: 100%;
     float: right;
 }
+.ctag1{
+    width: 30%;
+    border: solid 2px black;
+    float: right;
+    text-align: center;
+    background-color: pink;
+}
 .beef{
-    width: 45%;
+    width: 30%;
+    height: 100%;
+    border: solid 2px black;
+    background-color: grey;
+}
+.bf{
+    width: 100%;
+    float: right;
+}
+.bftag{
+    border: solid 2px black;
+    width: 30%;
+    float: right;
+    text-align: center;
+    background-color: red;
 }
 .sushi{
-    height: 30vh;
-    background-color: aquamarine;
+    width: 30%;
+    height: 100%;
+    border: solid 2px black;
+    background-color: grey;
+}
+.sh{
+    width: 100%;
+    float: right;
+
+}
+.shtag{
+    width: 30%;
+    float: right;
+    text-align: center;
+    background-color: gold;
+    border: solid 2px black;
+}
+p{
+    padding: 10px;
+    padding-top: 100px;
+}
+}
+@media all and (max-width: 768px) {
+    
+    .row{
+        width: 100vw;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .chicken{
+        height: 30%;
+        width: 100%;
+        border: solid 2px black;
+        background-color: grey;
+        font-size: large;
+    }
+    .ctag{
+        width: 100%;
+        float: right;
+    }
+    .ctag1{
+        width: 30%;
+        border: solid 2px black;
+        float: right;
+        text-align: center;
+        background-color: pink;
+    }
+    .beef{
+        height: 30%;
+        width: 100%;
+        border: solid 2px black;
+        background-color: grey;
+    }
+    .bf{
+        width: 100%;
+        float: right;
+    }
+    .bftag{
+        border: solid 2px black;
+        width: 30%;
+        float: right;
+        text-align: center;
+        background-color: red;
+    }
+    .sushi{
+        height: 30%;
+        width: 100%;
+        border: solid 2px black;
+        background-color: grey;
+    }
+    .sh{
+        width: 100%;
+        float: right;
+    
+    }
+    .shtag{
+        width: 30%;
+        float: right;
+        text-align: center;
+        background-color: gold;
+        border: solid 2px black;
+    }
 }
